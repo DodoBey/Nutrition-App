@@ -1,6 +1,6 @@
 # Nutrition-App
 
-# This is nutrition app that you can calculate approximately basal metabolic rate and record daily income by adding data. I used react to create this project.
+# This is nutrition app that you can calculate approximately basal metabolic rate and record daily income by adding data. I used react to create this project. You need to install node module before using the application.
 
 # Built with:
 - React
