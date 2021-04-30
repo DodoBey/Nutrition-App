@@ -1,0 +1,8 @@
+{
+    "appId": "io.ionic.NutriApp",
+    "appName": "NutriApp",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "build",
+    "cordova": {}
+  }

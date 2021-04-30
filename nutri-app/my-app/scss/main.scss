@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap');
+
+body{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif !important;
+    background-color: #77C9D4 !important;
+}
+
+#basalRate{
+    transition: 2s ease-out;
+    background-image: linear-gradient(to right top, #57bc90, #68c39b, #77caa6, #87d1b1, #96d8bc);
+    -webkit-box-shadow: 0px 4px 15px 2px #B4B4BF; 
+    box-shadow: 0px 4px 15px 4px #B4B4BF;
+    text-align: center;
+    font-weight: 700;
+    padding: 80px 10px;
+    margin: 50% 15px;
+    border-radius: 10px;
+    height: 100%;
+
+    h5{
+        font-weight: 700;
+        font-size: 20px;
+        color:black;
+    }
+    
+    input{
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 10px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        color: #A5A5AF;
+    }
+
+    #userVariables{
+        input{
+            width: 100px;
+        }    
+    }
+    button{
+        border: 1px solid black;
+        border-radius: 10px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        color: whitesmoke;
+        background-image: linear-gradient(to right top, #015249, #046a5f, #098375, #0f9c8d, #15b7a5);
+    }
+}
+
+#mainBody{
+    text-align: center;
+    margin: 50% 20px;
+    background-image: linear-gradient(to right top, #57bc90, #68c39b, #77caa6, #87d1b1, #96d8bc);
+    -webkit-box-shadow: 0px 4px 15px 2px #B4B4BF; 
+    box-shadow: 0px 4px 15px 4px #B4B4BF;
+    border-radius: 10px;
+    padding: 10px;
+    .mealButtons{
+        margin: 10px;
+        button{
+            width: 120px;
+            border: 1px solid black;
+            border-radius: 10px;
+            background-image: linear-gradient(to right top, #015249, #046a5f, #098375, #0f9c8d, #15b7a5);
+        }
+    }
+
+    #foodName{
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 10px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        color: #A5A5AF;
+    }
+
+    #addButton{
+        border: 1px solid black;
+        border-radius: 10px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        color: whitesmoke;
+        background-image: linear-gradient(to right top, #015249, #046a5f, #098375, #0f9c8d, #15b7a5);
+    }
+
+    #totalDaily{
+        font-weight: 700;
+        border: 3px solid #015249;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 10px;
+        h5{
+            font-weight: 700;
+            border-bottom: 2px solid #015249;
+        }
+        span{
+            display: block;
+        }
+        #totalValueArea{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 10px;
+            .firstLine, .secondline{
+                display: flex;
+                justify-content: space-around;
+                margin: 10px;
+            }
+        }
+        #infoArea{
+            border-top: 2px solid #015249;
+            :nth-child(2){
+                font-size: 13px;
+                color: brown;
+            }
+        }
+    }
+}
+
+#dailyDataArea{
+    #breakfast, #lunch, #dinner, #snacks{
+        background-color: #77C9D4;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 10px;
+        overflow: scroll;
+        height: 100px;
+        .mealsTitle{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid #015249;
+            :nth-child(2){
+                margin: 0 8px 0 20px;
+            }
+            h5{
+                font-weight: 700; 
+            }
+            span{
+                font-weight: 700;
+            }
+        }
+        .dailyData{
+            display: flex;
+            justify-content: space-between;
+            :nth-child(2){
+                margin: 0 8px 0 20px;
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "NutriApp",
+    "integrations": {
+      "capacitor": {}
+    },
+    "type": "react"
+  }
