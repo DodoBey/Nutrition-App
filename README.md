@@ -20,4 +20,4 @@
 ### Used IONIC framework to create IOS app. version.
 https://user-images.githubusercontent.com/77416196/116641695-1d455f80-a922-11eb-8791-171bded49aa5.mp4
 
-:red_circle: Can not upload to ios files due to gitHub limitation.
+:red_circle: Cannot upload to ios files due to gitHub limitation.
